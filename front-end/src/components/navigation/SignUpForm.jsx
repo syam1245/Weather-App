@@ -20,7 +20,7 @@ function SignUpForm() {
 
         try {
 
-            const response = await axios.post('http://localhost:5000/api/signup', { username, email, password });
+            const response = await axios.post('https://weather-app-ackf.onrender.com/api/signup', { username, email, password });
 
 
 
