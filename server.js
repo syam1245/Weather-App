@@ -32,7 +32,8 @@ app.use(
                 connectSrc: ["wss://wft-geo-db.p.rapidapi.com",
                     "https://wft-geo-db.p.rapidapi.com",
                     "https://api.openweathermap.org",
-                    "http://localhost:5000"],
+                    "http://localhost:5000",
+                    "https://weather-app-ackf.onrender.com",],
             },
         },
     })
